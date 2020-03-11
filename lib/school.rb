@@ -18,7 +18,10 @@ class School
   
   def sort
     sorted = {}
-    roster[student_name].sort
+    roster.each do |k,v|
+      k.sort
+      sorted
+    end 
   end 
   
 end 
