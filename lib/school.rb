@@ -8,7 +8,7 @@ class School
     @name = {}
   end 
   
-  def add_student(name, grade)
+  # def add_student(name, grade)
     # @name.roster.each do |k,v|
     #     new_k = []
     #     if !v 
