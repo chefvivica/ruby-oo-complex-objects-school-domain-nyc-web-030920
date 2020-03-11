@@ -9,9 +9,8 @@ class School
   end 
   
   def add_student(name, grade)
-    # roster.[grade] ||= [] 
-    roster.name["new_key"] = []
-    name["new_key"] << "new_value_for_value_array"
-    name=> {"new_key"=>["new_value_for_value_array"]} 
+    roster.[grade] ||= [] 
+    roster.[grade] << name 
+  
   end 
 end 
