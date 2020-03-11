@@ -11,8 +11,10 @@ class School
   def add_student(name, grade)
     @name.roster.each do |k,v|
         new_k = []
-        if k == grade
-          new_k << name 
+        if !v 
+          new_k == k
+        else 
+          new_k << k 
         end 
     end 
   end 
