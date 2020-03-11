@@ -1,12 +1,11 @@
 # code here!
 class School 
+  attr_accessor :name, :roster
+
   def initialize(name)
-    @name = name 
-  end 
-  
-  def roster
-    @name = {}
-  end 
+    @name = name
+    @roster = {}
+  end
   
   # def add_student(name, grade)
     # @name.roster.each do |k,v|
