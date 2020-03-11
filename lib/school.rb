@@ -9,8 +9,8 @@ class School
   end 
   
   def add_student(name, grade)
-    hash["new_key"] = []
-    hash["new_key"] << "new_value_for_value_array"
-    hash=> {"new_key"=>["new_value_for_value_array"]}
+    @name["new_key"] = []
+    @name["new_key"] << "new_value_for_value_array"
+    @name=> {"new_key"=>["new_value_for_value_array"]}
   end 
 end 
