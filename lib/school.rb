@@ -9,8 +9,11 @@ class School
   end 
   
   def add_student(name, grade)
-    roster[grade] ||= [] 
-    roster[grade] << name 
+    @name.roster.each do |k,v|
+      if k == grade 
+        k = []
+      k << name
+    end 
   end 
   
     def grade(grade)
